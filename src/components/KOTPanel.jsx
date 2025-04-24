@@ -126,18 +126,6 @@ export default function KOTPanel({ selectedItems, onQuantityChange, onRemoveItem
         ))}
       </div>
 
-      {/* Totals */}
-      <div className="mb-6 space-y-2">
-        <div className="flex justify-between font-semibold">
-          <span>Subtotal:</span>
-          <span>£{subtotal.toFixed(2)}</span>
-        </div>
-        <div className="flex justify-between text-2xl font-bold">
-          <span>Total:</span>
-          <span>£{total.toFixed(2)}</span>
-        </div>
-      </div>
-
       {/* Action Buttons */}
       <div className="grid grid-cols-2 gap-4">
         <button
